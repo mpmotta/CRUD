@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mensagem{
+    width: 450px;
+    color: #090;
+    background-color: #fff;
+    padding: 50px 20px;
+    font-size: 24px;
+    font-weight: 900;
+    box-shadow: 0px 0px 5px 5px #000;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none;
+}
+.tab{
+    width: 70%;
+    margin: 20px auto;
+}
+.center{
+    margin: auto;
+}
+.edit a{
+    color: #070;
+}
+.del a{
+    color: #900;
+}
